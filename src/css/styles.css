@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--bg-color);
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0 30px;
+}
+
+.container .img-demo {
+    padding: 30px;
+}
+
+.container .descricao{
+    color: white;
+    width: 85%;
+    margin: 30px 0;
+    padding: 0 60px;
+}
+
+.descricao .descricao-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.7;
+    text-transform: capitalize;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.descricao .descricao-txt {
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+
+.descricao .btn-registro {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 5px 5px 10px rgba(40, 40, 40, 0.4);
+    transition: 0.3s all ease-in-out;
+}
+
+.descricao .btn-registro:hover {
+    color: white;
+    background-color: var(--cor-hover);
+}
+
+
+.social-medias{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 70px 30px;
+}
+
+.social-medias .medias {
+    font-size: 20px;
+    color: white;
+    border: white 2px solid;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin: 10px;
+    transition: 0.3s ease-in-out
+}
+
+.social-medias .medias:hover{
+    color: var(--cor-hover);
+    border-color: var(--cor-hover);
+}
