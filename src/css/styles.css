@@ -54,7 +54,7 @@ body {
     font-weight: 400;
     padding: 10px 50px;
     background-color: white;
-    color: var(--bg-color);
+    color: hsl(257, 40%, 49%);
     border-radius: 22px;
     box-shadow: 5px 5px 10px rgba(40, 40, 40, 0.4);
     transition: 0.3s all ease-in-out;
